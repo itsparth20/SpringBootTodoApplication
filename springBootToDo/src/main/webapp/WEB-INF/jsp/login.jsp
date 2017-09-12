@@ -1,17 +1,12 @@
+<%@ include file="common/header.jspf"%>
+<%@ include file="common/navigation.jspf"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
+<div class=container>
 	<form method="post">
-	<font color="red">${inValidUser}</font><br/>
-		Username: <input type="text" name="username"> Password: <input
-			type="password" name="password"> <input type="submit">
+		<font color="red">${inValidUser}</font><br /> Username: <input
+			type="text" name="username"> Password: <input type="password"
+			name="password"> <input type="submit">
 	</form>
-</body>
-</html>
+</div>
+<%@ include file="common/footer.jspf"%>
